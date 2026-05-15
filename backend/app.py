@@ -22,6 +22,7 @@ EN: Serves the vanilla HTML/CSS/JS frontend and the rule-engine
 
 from __future__ import annotations
 
+import os
 from pathlib import Path
 from typing import Any
 from dataclasses import asdict
@@ -196,7 +197,9 @@ def login(body: LoginRequest) -> dict[str, Any]:
 #     html=True makes StaticFiles serve index.html for the root URL.
 # IMPORTANT: this mount must be added AFTER all /api routes so
 #            those routes are matched first.
-if FRONTEND_DIR.exists():
+# AR: لا نحتاج لتركيب الملفات الثابتة يدوياً عند التشغيل على Vercel
+# لأن Vercel يتعامل مع الملفات الثابتة (Static Files) من مجلد dist تلقائياً.
+if FRONTEND_DIR.exists() and not os.environ.get("VERCEL"):
     app.mount(
         "/",
         StaticFiles(directory=str(FRONTEND_DIR), html=True),

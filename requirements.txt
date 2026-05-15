@@ -1,0 +1,21 @@
+# EduPilot Backend dependencies
+# ============================================================
+# AR: مكتبات استخراج البيانات الأكاديمية وخدمة الـ API
+# EN: Academic data extraction libraries + REST API server
+# ============================================================
+
+# PDF parsing
+pdfplumber==0.11.4
+PyPDF2==3.0.1
+
+# REST API
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+pydantic==2.10.3
+
+# CORS / utilities
+python-multipart==0.0.19
+
+# Database
+supabase==2.4.3
+python-dotenv==1.0.1
