@@ -84,7 +84,7 @@ echo ============================================================
 echo.
 
 start "" cmd /c "timeout /t 4 /nobreak >nul & start http://127.0.0.1:5500/"
-cd frontend
+cd dist
 %PYCMD% -m http.server 5500
 cd ..
 

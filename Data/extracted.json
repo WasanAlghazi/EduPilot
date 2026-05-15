@@ -1,0 +1,647 @@
+{
+  "student_id": "445004397",
+  "student_name": "نورة المانع",
+  "program": "بكالوريوس علوم الحاسب — جامعة الباحة",
+  "gpa": 4.15,
+  "passed_courses": [
+    {
+      "code": "MATH1001",
+      "name": "تفاضل وتكامل 1",
+      "grade": 85.0,
+      "hours": 4,
+      "term": ""
+    },
+    {
+      "code": "CS1002",
+      "name": "مقدمة في الحوسبة والخوارزميات",
+      "grade": 90.0,
+      "hours": 4,
+      "term": ""
+    },
+    {
+      "code": "CS1005",
+      "name": "برمجة 1",
+      "grade": 95.0,
+      "hours": 4,
+      "term": ""
+    },
+    {
+      "code": "CS1251",
+      "name": "تصميم منطقي رقمي",
+      "grade": 88.0,
+      "hours": 4,
+      "term": ""
+    },
+    {
+      "code": "CS1253",
+      "name": "برمجة 2",
+      "grade": 75.0,
+      "hours": 3,
+      "term": ""
+    },
+    {
+      "code": "CS1004",
+      "name": "إحصاء",
+      "grade": 78.0,
+      "hours": 3,
+      "term": ""
+    }
+  ],
+  "plan": [
+    {
+      "code": "ENGL1001",
+      "name": "اللغة الإنجليزية 1",
+      "hours": 0,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 1,
+      "type": "core",
+      "difficulty": 45
+    },
+    {
+      "code": "MATH1001",
+      "name": "تفاضل وتكامل 1",
+      "hours": 4,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 1,
+      "type": "core",
+      "difficulty": 75
+    },
+    {
+      "code": "PHYS1301",
+      "name": "الفيزياء العامة 2",
+      "hours": 4,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 1,
+      "type": "core",
+      "difficulty": 70
+    },
+    {
+      "code": "ISLM1003",
+      "name": "التلاوة والهدايات القرآنية",
+      "hours": 2,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 1,
+      "type": "core",
+      "difficulty": 35
+    },
+    {
+      "code": "CS1001",
+      "name": "أساسيات التحول الرقمي",
+      "hours": 2,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 1,
+      "type": "core",
+      "difficulty": 45
+    },
+    {
+      "code": "ENGL1002",
+      "name": "اللغة الإنجليزية 2",
+      "hours": 3,
+      "prerequisites": [
+        "ENGL1001"
+      ],
+      "yearly_only": false,
+      "level": 2,
+      "type": "core",
+      "difficulty": 50
+    },
+    {
+      "code": "CS1002",
+      "name": "مقدمة في الحوسبة والخوارزميات",
+      "hours": 4,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 2,
+      "type": "core",
+      "difficulty": 72
+    },
+    {
+      "code": "CS1003",
+      "name": "هياكل منفصلة",
+      "hours": 3,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 2,
+      "type": "core",
+      "difficulty": 78
+    },
+    {
+      "code": "ISLM1001",
+      "name": "ثقافة إسلامية 1",
+      "hours": 2,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 2,
+      "type": "core",
+      "difficulty": 35
+    },
+    {
+      "code": "ARAB1001",
+      "name": "المهارات اللغوية",
+      "hours": 2,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 2,
+      "type": "core",
+      "difficulty": 40
+    },
+    {
+      "code": "ENGL1003",
+      "name": "اللغة الإنجليزية 3",
+      "hours": 3,
+      "prerequisites": [
+        "ENGL1002"
+      ],
+      "yearly_only": false,
+      "level": 3,
+      "type": "core",
+      "difficulty": 55
+    },
+    {
+      "code": "CS1004",
+      "name": "إحصاء",
+      "hours": 3,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 3,
+      "type": "core",
+      "difficulty": 72
+    },
+    {
+      "code": "CS1005",
+      "name": "برمجة 1",
+      "hours": 4,
+      "prerequisites": [
+        "CS1002"
+      ],
+      "yearly_only": false,
+      "level": 3,
+      "type": "core",
+      "difficulty": 78
+    },
+    {
+      "code": "ISLM1002",
+      "name": "ثقافة إسلامية 2",
+      "hours": 2,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 3,
+      "type": "core",
+      "difficulty": 35
+    },
+    {
+      "code": "HIST1001",
+      "name": "تاريخ المملكة العربية السعودية",
+      "hours": 2,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 3,
+      "type": "core",
+      "difficulty": 40
+    },
+    {
+      "code": "CS1251",
+      "name": "تصميم منطقي رقمي",
+      "hours": 4,
+      "prerequisites": [
+        "CS1005"
+      ],
+      "yearly_only": false,
+      "level": 4,
+      "type": "core",
+      "difficulty": 80
+    },
+    {
+      "code": "CS1252",
+      "name": "الكتابة التقنية",
+      "hours": 3,
+      "prerequisites": [
+        "CS1004"
+      ],
+      "yearly_only": false,
+      "level": 4,
+      "type": "core",
+      "difficulty": 55
+    },
+    {
+      "code": "CS1253",
+      "name": "برمجة 2",
+      "hours": 3,
+      "prerequisites": [
+        "CS1005"
+      ],
+      "yearly_only": false,
+      "level": 4,
+      "type": "core",
+      "difficulty": 82
+    },
+    {
+      "code": "CS1254",
+      "name": "احتمالات",
+      "hours": 3,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 4,
+      "type": "core",
+      "difficulty": 75
+    },
+    {
+      "code": "IT1255",
+      "name": "الجبر الخطي",
+      "hours": 3,
+      "prerequisites": [
+        "ENGL1003"
+      ],
+      "yearly_only": false,
+      "level": 4,
+      "type": "core",
+      "difficulty": 72
+    },
+    {
+      "code": "CS1006",
+      "name": "تراكيب البيانات",
+      "hours": 4,
+      "prerequisites": [
+        "CS1253"
+      ],
+      "yearly_only": false,
+      "level": 5,
+      "type": "core",
+      "difficulty": 88
+    },
+    {
+      "code": "CS1255",
+      "name": "شبكات الحاسب 1",
+      "hours": 3,
+      "prerequisites": [
+        "CS1005"
+      ],
+      "yearly_only": false,
+      "level": 5,
+      "type": "core",
+      "difficulty": 78
+    },
+    {
+      "code": "CS1007",
+      "name": "تنظيم ومعمارية الحاسب",
+      "hours": 4,
+      "prerequisites": [
+        "CS1251"
+      ],
+      "yearly_only": false,
+      "level": 5,
+      "type": "core",
+      "difficulty": 80
+    },
+    {
+      "code": "CS1256",
+      "name": "قواعد البيانات 1",
+      "hours": 4,
+      "prerequisites": [
+        "CS1251"
+      ],
+      "yearly_only": false,
+      "level": 5,
+      "type": "core",
+      "difficulty": 78
+    },
+    {
+      "code": "CS1008",
+      "name": "تقنيات الويب 1",
+      "hours": 4,
+      "prerequisites": [
+        "CS1007"
+      ],
+      "yearly_only": false,
+      "level": 6,
+      "type": "core",
+      "difficulty": 72
+    },
+    {
+      "code": "CS1009",
+      "name": "هندسة البرمجيات 1",
+      "hours": 4,
+      "prerequisites": [
+        "CS1251"
+      ],
+      "yearly_only": false,
+      "level": 6,
+      "type": "core",
+      "difficulty": 75
+    },
+    {
+      "code": "CS1257",
+      "name": "شبكات الحاسب 2",
+      "hours": 4,
+      "prerequisites": [
+        "CS1006"
+      ],
+      "yearly_only": false,
+      "level": 6,
+      "type": "core",
+      "difficulty": 82
+    },
+    {
+      "code": "CS_ELEC_FAC",
+      "name": "مقرر اختياري كلية",
+      "hours": 3,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 6,
+      "type": "core",
+      "difficulty": 60
+    },
+    {
+      "code": "CS1501",
+      "name": "تقنيات الويب 2",
+      "hours": 4,
+      "prerequisites": [
+        "CS1008"
+      ],
+      "yearly_only": false,
+      "level": 7,
+      "type": "core",
+      "difficulty": 75
+    },
+    {
+      "code": "CS1502",
+      "name": "نظم التشغيل",
+      "hours": 4,
+      "prerequisites": [
+        "CS1256"
+      ],
+      "yearly_only": false,
+      "level": 7,
+      "type": "core",
+      "difficulty": 85
+    },
+    {
+      "code": "CS1503",
+      "name": "هندسة البرمجيات 2",
+      "hours": 3,
+      "prerequisites": [
+        "CS1009"
+      ],
+      "yearly_only": false,
+      "level": 7,
+      "type": "core",
+      "difficulty": 78
+    },
+    {
+      "code": "CS1504",
+      "name": "التفاعل بين الإنسان والحاسب",
+      "hours": 3,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 7,
+      "type": "core",
+      "difficulty": 62
+    },
+    {
+      "code": "CS1505",
+      "name": "الذكاء الاصطناعي",
+      "hours": 4,
+      "prerequisites": [
+        "CS1006"
+      ],
+      "yearly_only": false,
+      "level": 8,
+      "type": "core",
+      "difficulty": 88
+    },
+    {
+      "code": "CS1506",
+      "name": "تصميم وتحليل الخوارزميات",
+      "hours": 3,
+      "prerequisites": [
+        "CS1006"
+      ],
+      "yearly_only": false,
+      "level": 8,
+      "type": "core",
+      "difficulty": 90
+    },
+    {
+      "code": "IS1501",
+      "name": "الأخلاقيات في الحوسبة",
+      "hours": 3,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 8,
+      "type": "core",
+      "difficulty": 45
+    },
+    {
+      "code": "CS1507",
+      "name": "نظرية الحوسبة",
+      "hours": 3,
+      "prerequisites": [
+        "CS1003"
+      ],
+      "yearly_only": false,
+      "level": 8,
+      "type": "core",
+      "difficulty": 85
+    },
+    {
+      "code": "CS1508",
+      "name": "أمن الحاسب",
+      "hours": 3,
+      "prerequisites": [
+        "CS1251"
+      ],
+      "yearly_only": true,
+      "level": 9,
+      "type": "core",
+      "difficulty": 80
+    },
+    {
+      "code": "CS1509",
+      "name": "تطوير تطبيقات الجوال",
+      "hours": 3,
+      "prerequisites": [
+        "CS1257"
+      ],
+      "yearly_only": false,
+      "level": 9,
+      "type": "core",
+      "difficulty": 78
+    },
+    {
+      "code": "CS1510",
+      "name": "نظرية المترجمات",
+      "hours": 3,
+      "prerequisites": [
+        "CS1506"
+      ],
+      "yearly_only": true,
+      "level": 9,
+      "type": "core",
+      "difficulty": 92
+    },
+    {
+      "code": "CS1511",
+      "name": "لغات البرمجة",
+      "hours": 3,
+      "prerequisites": [
+        "CS1507"
+      ],
+      "yearly_only": false,
+      "level": 9,
+      "type": "core",
+      "difficulty": 80
+    },
+    {
+      "code": "CS1512",
+      "name": "التدريب الميداني",
+      "hours": 3,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 9,
+      "type": "core",
+      "difficulty": 55
+    },
+    {
+      "code": "CS1751",
+      "name": "الرسم بالحاسب",
+      "hours": 3,
+      "prerequisites": [
+        "CS1256"
+      ],
+      "yearly_only": true,
+      "level": 10,
+      "type": "core",
+      "difficulty": 78
+    },
+    {
+      "code": "CS1752",
+      "name": "طرق البحث",
+      "hours": 3,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 10,
+      "type": "core",
+      "difficulty": 58
+    },
+    {
+      "code": "CS1753",
+      "name": "مقدمة في تنقيب البيانات",
+      "hours": 3,
+      "prerequisites": [
+        "CS1007"
+      ],
+      "yearly_only": false,
+      "level": 10,
+      "type": "core",
+      "difficulty": 85
+    },
+    {
+      "code": "CS_ELEC_1",
+      "name": "اختياري 1",
+      "hours": 3,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 10,
+      "type": "core",
+      "difficulty": 65
+    },
+    {
+      "code": "CS1754",
+      "name": "مشروع التخرج 1",
+      "hours": 3,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 11,
+      "type": "core",
+      "difficulty": 72
+    },
+    {
+      "code": "CS1755",
+      "name": "النمذجة والمحاكاة",
+      "hours": 3,
+      "prerequisites": [
+        "CS1506"
+      ],
+      "yearly_only": true,
+      "level": 11,
+      "type": "core",
+      "difficulty": 80
+    },
+    {
+      "code": "CS1756",
+      "name": "الحوسبة المتوازية والموزعة",
+      "hours": 4,
+      "prerequisites": [
+        "CS1257"
+      ],
+      "yearly_only": false,
+      "level": 11,
+      "type": "core",
+      "difficulty": 88
+    },
+    {
+      "code": "CS_ELEC_2",
+      "name": "اختياري 2",
+      "hours": 3,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 11,
+      "type": "core",
+      "difficulty": 65
+    },
+    {
+      "code": "CS1757",
+      "name": "مشروع التخرج 2",
+      "hours": 3,
+      "prerequisites": [
+        "CS1754"
+      ],
+      "yearly_only": false,
+      "level": 12,
+      "type": "core",
+      "difficulty": 80
+    },
+    {
+      "code": "CS1758",
+      "name": "التقنيات الناشئة",
+      "hours": 3,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 12,
+      "type": "core",
+      "difficulty": 70
+    },
+    {
+      "code": "CS_ELEC_3",
+      "name": "اختياري 3",
+      "hours": 3,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 12,
+      "type": "core",
+      "difficulty": 65
+    },
+    {
+      "code": "CS_ELEC_4",
+      "name": "اختياري 4",
+      "hours": 3,
+      "prerequisites": [],
+      "yearly_only": false,
+      "level": 12,
+      "type": "core",
+      "difficulty": 65
+    }
+  ],
+  "current_term_courses": [
+    "CS1006",
+    "CS1255",
+    "CS1007",
+    "CS1256",
+    "CS1508"
+  ]
+}
